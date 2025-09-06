@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Alina Ibarra</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Alina Ibarra</h1>
+            <ul class="nav-links">
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- Acerca de mí -->
+        <section id="about">
+            <h2>Acerca de mí</h2>
+            <div class="about-container">
+                <img src="IMG/IMG_8408.PNG" alt="Foto de Alina Ibarra" class="profile-pic">
+                <p>
+                    ¡Hola! Soy <strong>Alina Ibarra</strong>, tengo 19 años y soy de Guayaquil, Ecuador. 
+                    Actualmente curso el 4to semestre de <b>Negocios Internacionales</b> en la 
+                    <i>Universidad Católica de Santiago de Guayaquil</i>.  
+                    Me apasiona la comunicación, el trabajo en equipo y la adaptabilidad.  
+                    Además, disfruto aprender nuevos idiomas, viajar, descubrir cafeterías y conocer diferentes culturas 🌍.
+                </p>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="skill">
+                <p>Inglés <span class="percent">70%</span></p>
+                <div class="progress-bar"><span data-width="70%"></span></div>
+            </div>
+            <div class="skill">
+                <p>Excel <span class="percent">60%</span></p>
+                <div class="progress-bar"><span data-width="60%"></span></div>
+            </div>
+            <div class="skill">
+                <p>HTML/CSS/JS <span class="percent">40%</span></p>
+                <div class="progress-bar"><span data-width="40%"></span></div>
+            </div>
+            <div class="skill">
+                <p>Atención al cliente <span class="percent">80%</span></p>
+                <div class="progress-bar"><span data-width="80%"></span></div>
+            </div>
+            <div class="skill">
+                <p>Creatividad <span class="percent">90%</span></p>
+                <div class="progress-bar"><span data-width="90%"></span></div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="projects-container">
+                <div class="card">
+                    <i class="fas fa-chart-line fa-2x"></i>
+                    <h3>Distribución Normal en Negocios</h3>
+                    <p>Exposición final en grupo de la materia de Estadística.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-laptop-code fa-2x"></i>
+                    <h3>Portafolio Web Interactivo</h3>
+                    <p>Desarrollado con HTML, CSS y JavaScript.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-lightbulb fa-2x"></i>
+                    <h3>Jóvenes Creativos</h3>
+                    <p>Programa de innovación con formación en IA y emprendimiento.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Portafolio de Alina Ibarra | Desarrollado con 💻 y ☕</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
